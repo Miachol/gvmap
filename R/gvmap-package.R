@@ -91,9 +91,10 @@
 #' Report bugs at \url{https://github.com/ytdai/gvmap/issues}
 #' @docType package
 #' @name gvmap
-#' @import rsvg configr dendextend matrixStats stringr easySVG stats openxlsx
+#' @import rsvg configr matrixStats stringr easySVG stats openxlsx
 #' @importFrom grDevices colorRampPalette
 #' @importFrom utils read.table
+#' @importFrom dendextend get_nodes_attr
 #' @importFrom stats as.dendrogram as.dist cor dist hclust order.dendrogram reorder
 #'
 NULL

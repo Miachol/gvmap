@@ -4,16 +4,16 @@
 \name{gvmap}
 \alias{gvmap}
 \alias{gvmap-package}
-\alias{gvmap}
 \title{gvmap config package
 show gvmap config information}
 \usage{
 gvmap(legend_data, heatmap_data, config_file, output_svg_name,
-  convert_pdf = FALSE, convert_jpg = FALSE, output_group_info = FALSE,
-  plot_width = 1200, plot_height = 1600, stroke_width = 1,
-  dend_stroke_width = 2, group_span = 10, sample_span = 0,
-  heatmap_row_span = 0, frame = TRUE, frame_stroke_width = 2,
-  sample_font_size = NULL, legend_font_size = NULL, font_family = "Arial")
+  convert_pdf = FALSE, convert_jpg = FALSE,
+  output_group_info = FALSE, plot_width = 1200, plot_height = 1600,
+  stroke_width = 1, dend_stroke_width = 2, group_span = 10,
+  sample_span = 0, heatmap_row_span = 0, frame = TRUE,
+  frame_stroke_width = 2, sample_font_size = NULL,
+  legend_font_size = NULL, font_family = "Arial")
 }
 \arguments{
 \item{legend_data}{data frame. The basic legend data of the plot. It will contain all the
@@ -137,8 +137,6 @@ The third element in the vector is the column number.
 [param] bg_col background color theme, other user-define color theme must start with 'bg_'.
 
 [param] tag_col target color theme, other user-define color theme must start with 'tag_'.
-
-gvmap package
 }
 \examples{
 browseVignettes("gvmap")
